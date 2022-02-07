@@ -1,0 +1,233 @@
+*{
+    font-family: sans-serif;
+}
+.hidden{
+    display: none;
+}
+
+.btn-info{
+    color: white;
+}
+body{
+    background-color: rgb(248 250 252);
+}
+header{
+    margin: 0;
+    height: 60px;
+    width: 100vw;
+    background-color: white;
+    opacity: 0.9;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerleft{
+    align-items: center;
+}
+.maintitle{
+    margin: 0;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.maintitle a{
+    color: black;
+    text-decoration: none;
+}
+
+.headerright{
+    width: 70vw;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+.loginentry{
+    color: black;
+    text-decoration: none;
+}
+
+.rightlink .hidden{
+    display: none;
+}
+
+/* ハンバーガーメニューここから */
+#open.hidden{
+    display: none;
+}
+
+.close{
+    display: none;
+    transform: rotateZ(45deg);
+}
+#close.display{
+    display: block;
+}
+#hiddenmenu.display{
+    display: block;
+}
+.nav__wrapper2{
+    margin: 5px 0;
+    padding: 0;
+}
+.nav__item{
+    list-style-type: none;
+    padding: 5px;
+}
+.nav__item a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+/* ハンバーガーメニューここまで */
+
+/* メインコンテンツ */
+.container{
+    padding: 100px 100px 50px 100px;
+}
+.container2{
+    padding: 100px 50px 50px 50px;
+}
+.container3{
+    padding: 100px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.leftpage{
+    width: 50vw;
+}
+.detailtitle{
+    height: 100px;
+}
+.category{
+    font-size: 16px;
+    width: auto;
+    background-color: rgb(216, 228, 238);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.rightpage{
+    width: 40vw;
+}
+.space{
+    height: 100px;
+}
+.abstraction{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 0 grey;
+    padding: 1.5rem;
+    margin-bottom: 30px;
+}
+.abstraction h3{
+    padding-top: 10px;
+}
+.support{
+    display: flex;
+    align-items: flex-start;
+    gap:20px;
+}
+.likebtn{
+    display: flex;
+    justify-content: start;
+    gap:20px;
+}
+
+.title{
+    height: 30px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title p{
+    font-size: 30px;
+    line-height: 1.3rem;
+}
+.card-link{
+    text-decoration: none;
+    font-weight: bold;
+}
+.card-cul{
+    padding-top: 15px;
+    margin: 0;
+}
+.card-cul p{
+    margin: 0;
+    padding-top: 5px;
+}
+
+.pjbtn{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    height: 30px;
+}
+
+
+.hiddenmenu{
+    margin: 0;
+    border-radius: 5px;
+    width: 250px;
+    height: 180px;
+    position: absolute;
+    top: 65px;
+    right: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    pointer-events: auto;
+    padding: 0 0 0 10px;
+    border: 0.5px solid rgb(187, 183, 183);
+    cursor: pointer;
+    z-index: 300;
+}
+
+/* リストボタンここから */
+
+label {
+    margin-right: 5px; /* ボタン同士の間隔 */
+}
+label input {
+    display: none; /* デフォルトのinputは非表示にする */
+}
+label span {
+    color: #333; /* 文字色を黒に */
+    font-size: 14px; /* 文字サイズを14pxに */
+    border: 1px solid rgb(94, 91, 91); /* 淵の線を指定 */
+    border-radius: 20px; /* 角丸を入れて、左右が丸いボタンにする */
+    padding: 5px 20px; /* 上下左右に余白をトル */
+    opacity: 0.8;
+}
+label input:checked + span {
+    transition-duration: 0.2s;
+    color: #FFF; /* 文字色を白に */
+    background: rgb(69, 146, 235); /* 背景色を薄い赤に */
+    border: 1px solid rgb(69, 146, 235); /* 淵の線を薄い赤に */
+    box-shadow: 0 0 4px 1px rgb(69, 146, 235);
+}
+.ul{
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+}
+.ul li{
+    list-style: none;
+    background-color: lightpink;
+    color: white;
+    width: auto;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0.1rem;
+}
